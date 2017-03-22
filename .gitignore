@@ -1,0 +1,16 @@
+# Symlinks created by bazel
+bazel-*
+
+# Files and directories created by pub
+.buildlog
+.packages
+.project
+.pub
+**/build/
+**/packages/
+pubspec.lock
+
+.pubspec/packages.bzl
+.pubspec/.bazelify
+.pubspec/WORKSPACE
+.pubspec/BUILD
